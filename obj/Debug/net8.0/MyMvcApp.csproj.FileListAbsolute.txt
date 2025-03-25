@@ -61,3 +61,5 @@ C:/Users/azureuser/MyMvcApp/obj/Debug/net8.0/ref/MyMvcApp.dll
 /workspaces/MyMvcApp-Contact-Database-Application/obj/Debug/net8.0/ref/MyMvcApp.dll
 /workspaces/MyMvcApp-Contact-Database-Application/bin/Debug/net8.0/MyMvcApp.Tests/obj/MyMvcApp.Tests.csproj.nuget.dgspec.json
 /workspaces/MyMvcApp-Contact-Database-Application/bin/Debug/net8.0/MyMvcApp.Tests/obj/project.assets.json
+/workspaces/MyMvcApp-Contact-Database-Application/bin/Debug/net8.0/deploy.json
+/workspaces/MyMvcApp-Contact-Database-Application/bin/Debug/net8.0/deploy.parameters.json

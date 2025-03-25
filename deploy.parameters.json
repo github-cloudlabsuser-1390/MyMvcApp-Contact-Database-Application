@@ -1,15 +1,57 @@
 {
-  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
-  "contentVersion": "1.0.0.0",
-  "parameters": {
-    "appServiceName": {
-      "value": "MyMvcAppService"
-    },
-    "appServicePlanName": {
-      "value": "MyMvcAppServicePlan"
-    },
-    "location": {
-      "value": "eastus"
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "subscriptionId": {
+            "value": "1e5e4901-28a1-47b6-8629-a482274e7b12"
+        },
+        "resourceGroupName": {
+            "value": "GitHub-Copilot-Challenges"
+        },
+        "name": {
+            "value": "MyMvcApp-GG"
+        },
+        "location": {
+            "value": "Brazil South"
+        },
+        "hostingPlanName": {
+            "value": "ASP-GitHubCopilotChallenges-b0ac"
+        },
+        "serverFarmResourceGroup": {
+            "value": "GitHub-Copilot-Challenges"
+        },
+        "alwaysOn": {
+            "value": true
+        },
+        "ftpsState": {
+            "value": "FtpsOnly"
+        },
+        "sku": {
+            "value": "Premium0V3"
+        },
+        "skuCode": {
+            "value": "P0V3"
+        },
+        "numberOfWorkers": {
+            "value": "1"
+        },
+        "workerSize": {
+            "value": "18"
+        },
+        "workerSizeId": {
+            "value": "18"
+        },
+        "linuxFxVersion": {
+            "value": "DOTNETCORE|8.0"
+        },
+        "repoUrl": {
+            "value": "https://github.com/github-cloudlabsuser-1390/MyMvcApp-Contact-Database-Application"
+        },
+        "branch": {
+            "value": "main"
+        },
+        "oidcUserIdentityName": {
+            "value": "MyMvcApp-GG-id-8cb6"
+        }
     }
-  }
 }
