@@ -9,6 +9,13 @@
 <p>
     @Html.ActionLink("Create New", "Create", "User")
 </p>
+
+@using (Html.BeginForm("Index", "User", FormMethod.Get))
+{
+    <label>Find by name:</label>
+    <input type="text" name="query" />
+    <button type="submit">Search</button>
+}
 <table class="table">
     <tr>
         <th>
