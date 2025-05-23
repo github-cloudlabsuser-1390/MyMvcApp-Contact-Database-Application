@@ -2,9 +2,15 @@
 
 @{
     ViewBag.Title = "Index";
+    var query = Context.Request.Query["query"].ToString();
 }
 
 <h2>Index</h2>
+
+<form asp-action="Search" asp-controller="User" method="get" style="margin-bottom:20px;">
+    <input type="text" name="query" value="@query" placeholder="Search by name" />
+    <button type="submit">Search</button>
+</form>
 
 <p>
     @Html.ActionLink("Create New", "Create", "User")
